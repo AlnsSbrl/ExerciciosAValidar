@@ -1,21 +1,26 @@
 ﻿using System;
-
+/*Dividimos el número completo del DNI entre 23, sin sacar decimales.
+Utilizamos el resto de la división para calcular la letra. Dicho resto estará siempre entre 0 y 22.
+Según el valor obtenido, sabremos qué letra corresponde siguiendo el siguiente código: TRWAGMYFPDXBNJZSQVHLCKE. Aquí, la T corresponde al valor 0 y la E al 22. */
 namespace ObjetosEmpresas
 {
     abstract class Persona
     {
         public string Nombre;
         public string Apellidos;
+        private char[] letrasDNI= "TRWAGMYFPDXBNJZSQVHLCKE".ToCharArray();
         private string dni;
         public string Dni
         {
             set
             {
-                dni = value;
+                dni = value ;
+                
+
             }
             //en el enunciado dice que tiene que devolver además la letra del mismo
             //je ne comprend pas
-            get => dni;
+            get => dni + letrasDNI[Convert.ToInt32(dni) % 23];
         }
         private int edad;
         public int Edad
