@@ -22,5 +22,10 @@ namespace ObjetosEmpresas
         {
             return 1.05*base.Hacienda();
         }
+        public EmpleadoEspecial(double salario, string telefono, string nombre, string apellidos, string dni, int edad)
+            : base(salario,telefono,nombre,apellidos,dni,edad)
+        {
+
+        }
     }
 }

@@ -7,17 +7,18 @@ namespace ObjetosEmpresas
     class Principal
     {
         static double beneficiosEmpresa;
-        static double pastaGansa(IPastaGansa beneficiado)
+        static void pastaGansa(IPastaGansa empresario)
         {
+            
             Console.WriteLine("Cuanto ganó la empresa?");
             beneficiosEmpresa = Convert.ToDouble(Console.ReadLine());
-            return beneficiosEmpresa;
+            Console.WriteLine("Esta persona ha ganado {0} por las acciones que tiene de la empresa", empresario.ganarPasta(beneficiosEmpresa));
         }
         static void Main()
         {
-            Directivo florentino = new Directivo();
-            Empleado currelas = new Empleado();
-            EmpleadoEspecial benzema = new EmpleadoEspecial();
+            Directivo florentino = new Directivo("Finanzas",528,"Florentino","Perez","12345678",75);
+            Empleado currelas = new Empleado(40000,"671923923","Curro","Bellas","37584273",31);
+            EmpleadoEspecial benzema = new EmpleadoEspecial(40000,"645928354","Karim", "Benzema", "53820240",35);
             
             int opcion;
             do
@@ -31,20 +32,25 @@ namespace ObjetosEmpresas
                 switch (opcion)
                 {
                     case 1:
-                        florentino.Dni = "53820240";
+                        pastaGansa(florentino);
                         florentino.MuestraCampos();
+                        Console.WriteLine("Esta persona ha ganado por la empresa {0}",florentino.PastaGanada);
+                        Console.WriteLine("Esta persona le debe a hacienda {0}",florentino.Hacienda());
                         break;
                     case 2:
-                        currelas.Dni = "12345678";
                         currelas.MuestraCampos();
+                        Console.WriteLine(currelas.Hacienda());
                         break;
                     case 3:
-                        benzema.MuestraCampos();
+                        pastaGansa(benzema);
+                        benzema.MuestraCampos();                        
+                        Console.WriteLine("Esta persona ha ganado por la empresa {0}", benzema.PastaGanada);
+                        Console.WriteLine("Esta persona le debe a hacienda {0}", benzema.Hacienda());
                         break;
                 }
                 
 
-            } while (true);
+            } while (opcion>0 && opcion<4);
         }
     }
 }

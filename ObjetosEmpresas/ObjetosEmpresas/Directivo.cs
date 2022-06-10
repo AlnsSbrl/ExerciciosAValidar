@@ -26,14 +26,14 @@ namespace ObjetosEmpresas
                 personasACargo = value;
                 if (personasACargo <= 10)
                 {
-                    beneficios = 2 / 100;
+                    beneficios = 2 ;
                 } else if (personasACargo <= 50)
                 {
-                    beneficios = 3.5 / 100;
+                    beneficios = 3.5 ;
                 }
                 else
                 {
-                    beneficios = 4 / 100;
+                    beneficios = 4 ;
                 }
             }
             get => personasACargo;
@@ -43,8 +43,14 @@ namespace ObjetosEmpresas
             :base(nombre,apellidos,dni,edad)
         {
             this.departamento = departamento;
-            this.personasACargo = personasACargo;
+            this.PersonasACargo = personasACargo;
             this.beneficios = beneficios;
+        }
+        public Directivo(string departamento, int personasACargo, string nombre, string apellidos, string dni, int edad)
+            : base(nombre, apellidos, dni, edad)
+        {
+            this.departamento = departamento;
+            this.PersonasACargo = personasACargo;
         }
 
         public Directivo()
@@ -78,7 +84,7 @@ namespace ObjetosEmpresas
             base.MuestraCampos();
             Console.WriteLine("El nombre del departamento es {0}", this.departamento);
             Console.WriteLine("El número de personas que tiene a cargo es de {0}", this.personasACargo);
-            Console.WriteLine("El porcentaje de beneficios es: {0}%", this.beneficios * 100);
+            Console.WriteLine("El porcentaje de beneficios es: {0}%", this.beneficios);
         }
 
         public override void PideCampos()
@@ -100,7 +106,7 @@ namespace ObjetosEmpresas
                 thisDecre--;
                 return 0;
             }
-            pastaGanada = beneficio * beneficios;
+            pastaGanada = beneficio * beneficios/100;
             return pastaGanada;
         }
 

@@ -8,7 +8,7 @@ namespace ObjetosEmpresas
     {
         public string Nombre;
         public string Apellidos;
-        private char[] letrasDNI= "TRWAGMYFPDXBNJZSQVHLCKE".ToCharArray();
+        private readonly string letrasDNI= "TRWAGMYFPDXBNJZSQVHLCKE";
         private string dni;
         public string Dni
         {

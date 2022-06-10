@@ -48,9 +48,9 @@ namespace ObjetosEmpresas
         public override void MuestraCampos() 
         {
             base.MuestraCampos();
-            Console.WriteLine("Teléfono: {0}"
-                +"Salario: {1}"
-                +"Para Hacienda {2}",Telefono,Salario,IRPF);
+            Console.WriteLine("Teléfono: {0}\n"
+                +"Salario: {1}\n"
+                +"Para Hacienda {2}",Telefono,Salario,Hacienda());
         }
         public override void PideCampos()
         {
@@ -62,11 +62,11 @@ namespace ObjetosEmpresas
         }
 
         public Empleado()
-            :this(0,"")
+            :this(0,"","","","",0)
         {
         }
-        public Empleado(double salario, string telefono)
-            :base()
+        public Empleado(double salario, string telefono,string nombre,string apellidos,string dni,int edad)
+            :base(nombre,apellidos,dni,edad)
         {
             Salario = salario;
             Telefono = telefono;

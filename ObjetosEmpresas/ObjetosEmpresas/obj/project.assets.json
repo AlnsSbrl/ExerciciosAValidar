@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pablo\\source\\repos\\ObjetosEmpresas\\ObjetosEmpresas\\ObjetosEmpresas.csproj",
+      "projectUniqueName": "C:\\Users\\Pablo\\Desktop\\GIT\\ExerciciosAValidar\\ObjetosEmpresas\\ObjetosEmpresas\\ObjetosEmpresas.csproj",
       "projectName": "ObjetosEmpresas",
-      "projectPath": "C:\\Users\\Pablo\\source\\repos\\ObjetosEmpresas\\ObjetosEmpresas\\ObjetosEmpresas.csproj",
+      "projectPath": "C:\\Users\\Pablo\\Desktop\\GIT\\ExerciciosAValidar\\ObjetosEmpresas\\ObjetosEmpresas\\ObjetosEmpresas.csproj",
       "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pablo\\source\\repos\\ObjetosEmpresas\\ObjetosEmpresas\\obj\\",
+      "outputPath": "C:\\Users\\Pablo\\Desktop\\GIT\\ExerciciosAValidar\\ObjetosEmpresas\\ObjetosEmpresas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
