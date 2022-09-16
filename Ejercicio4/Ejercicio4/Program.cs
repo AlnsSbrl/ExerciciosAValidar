@@ -42,11 +42,9 @@ por defecto a 6. */
                 Random generador = new Random();
                 int numeroRandom = generador.Next(1,101);
                 int numeroUsuario = -1;
-                for (int i = 5; i > 0; i--)
+                for (int i = 5; i >0 && numeroRandom!= numeroUsuario; i--)
                 {
-                    if (numeroRandom != numeroUsuario)
-                    {
-
+                    
                         Console.WriteLine("intente adiviñar o numero {0}", numeroRandom);
                         numeroUsuario = Convert.ToInt32(Console.ReadLine());
                         if (numeroUsuario == numeroRandom)
@@ -62,11 +60,10 @@ por defecto a 6. */
                         {
                             Console.WriteLine("Quedacheste curto. Quédante {0} intentos", i - 1);
                         }
-                    }
                 }
                 Console.WriteLine("Quere rematar o xogo?(S/N)");
-                volver = Console.ReadLine();
-            } while (volver != "S" && volver != "s");
+                volver = Console.ReadLine().ToUpper();
+            } while (volver != "S");
         }
 
         static void opcion3()
@@ -125,8 +122,8 @@ when. */
                 {
                     case 1:
                         Console.WriteLine("Quere introducir un valor máximo?(S/N)");
-                        string introduce = Console.ReadLine();
-                        if (introduce == "S" || introduce == "s")
+                        string introduce = Console.ReadLine().ToUpper();
+                        if (introduce == "S")
                         {
                             Console.WriteLine("Introduza o valor máximo da tirada");
                             numero = Convert.ToInt32(Console.ReadLine());
