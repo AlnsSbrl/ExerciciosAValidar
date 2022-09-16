@@ -100,8 +100,8 @@ when. */
 
                 }
                 Console.WriteLine("Quere rematar o xogo?(S/N)");
-                volver = Console.ReadLine();
-            } while (volver != "S" && volver != "s");
+                volver = Console.ReadLine().ToUpper();
+            } while (volver != "S");
             //Console.WriteLine("EEEE");
         }
         static void Main(string[] args)
