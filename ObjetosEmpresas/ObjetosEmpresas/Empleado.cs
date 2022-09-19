@@ -17,13 +17,13 @@ namespace ObjetosEmpresas
                 switch (value)
                 {
                     case double salario when (salario < 600):
-                        IRPF = 0.07;
+                        IRPF = 7;
                         break;
                     case double salario when (salario >= 600 && salario < 3000):
-                        IRPF = 0.15;
+                        IRPF = 15;
                         break;
                     case double salario when salario >= 3000:
-                        IRPF = 0.2;
+                        IRPF = 20;
                         break;
                     
                 }
@@ -43,7 +43,7 @@ namespace ObjetosEmpresas
 
         public override double Hacienda()
         {
-            return IRPF*Salario;
+            return IRPF/100*Salario;
         }
         public override void MuestraCampos() 
         {

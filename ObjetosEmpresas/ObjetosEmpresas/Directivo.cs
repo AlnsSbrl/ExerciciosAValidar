@@ -66,13 +66,10 @@ namespace ObjetosEmpresas
         {
             if (direct.beneficios > 1)
             {
-            return new Directivo(direct.departamento,direct.beneficios-1,direct.personasACargo,direct.Nombre,direct.Apellidos,direct.Dni,direct.Edad);
-               
+                direct.beneficios=direct.beneficios-1;
             }
-            else
-            {
-            return new Directivo(direct.departamento,0,direct.personasACargo, direct.Nombre, direct.Apellidos, direct.Dni, direct.Edad);
-            }
+            return direct;
+            
         }
         public override double Hacienda()
         {

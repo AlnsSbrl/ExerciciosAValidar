@@ -50,7 +50,7 @@ namespace ObjetosEmpresas
                 }
                 
 
-            } while (opcion>0 && opcion<4);
+            } while (opcion!=4);
         }
     }
 }

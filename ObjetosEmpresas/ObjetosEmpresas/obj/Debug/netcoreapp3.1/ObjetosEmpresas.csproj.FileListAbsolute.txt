@@ -26,3 +26,17 @@ C:\Users\Pablo\Desktop\GIT\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\ob
 C:\Users\Pablo\Desktop\GIT\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\obj\Debug\netcoreapp3.1\ObjetosEmpresas.dll
 C:\Users\Pablo\Desktop\GIT\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\obj\Debug\netcoreapp3.1\ObjetosEmpresas.pdb
 C:\Users\Pablo\Desktop\GIT\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\obj\Debug\netcoreapp3.1\ObjetosEmpresas.genruntimeconfig.cache
+C:\Users\Pablo\Desktop\Proyectos C#\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\bin\Debug\netcoreapp3.1\ObjetosEmpresas.exe
+C:\Users\Pablo\Desktop\Proyectos C#\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\bin\Debug\netcoreapp3.1\ObjetosEmpresas.deps.json
+C:\Users\Pablo\Desktop\Proyectos C#\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\bin\Debug\netcoreapp3.1\ObjetosEmpresas.runtimeconfig.json
+C:\Users\Pablo\Desktop\Proyectos C#\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\bin\Debug\netcoreapp3.1\ObjetosEmpresas.runtimeconfig.dev.json
+C:\Users\Pablo\Desktop\Proyectos C#\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\bin\Debug\netcoreapp3.1\ObjetosEmpresas.dll
+C:\Users\Pablo\Desktop\Proyectos C#\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\bin\Debug\netcoreapp3.1\ObjetosEmpresas.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\obj\Debug\netcoreapp3.1\ObjetosEmpresas.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Proyectos C#\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\obj\Debug\netcoreapp3.1\ObjetosEmpresas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Desktop\Proyectos C#\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\obj\Debug\netcoreapp3.1\ObjetosEmpresas.AssemblyInfoInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\obj\Debug\netcoreapp3.1\ObjetosEmpresas.AssemblyInfo.cs
+C:\Users\Pablo\Desktop\Proyectos C#\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\obj\Debug\netcoreapp3.1\ObjetosEmpresas.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\obj\Debug\netcoreapp3.1\ObjetosEmpresas.dll
+C:\Users\Pablo\Desktop\Proyectos C#\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\obj\Debug\netcoreapp3.1\ObjetosEmpresas.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\ExerciciosAValidar\ObjetosEmpresas\ObjetosEmpresas\obj\Debug\netcoreapp3.1\ObjetosEmpresas.genruntimeconfig.cache
