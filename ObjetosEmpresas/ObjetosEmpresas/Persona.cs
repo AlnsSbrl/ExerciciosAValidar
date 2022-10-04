@@ -14,12 +14,19 @@ namespace ObjetosEmpresas
         {
             set
             {
-                dni = value ;
+                try
+                {
+                    dni = Convert.ToString(Convert.ToInt32(value));
+                }
+                catch (ArgumentException)
+                {
+                    dni = value.Substring(0,value.Length-1);
+
+                }
                 
 
             }
-            //en el enunciado dice que tiene que devolver además la letra del mismo
-            //je ne comprend pas
+            
             get => dni + letrasDNI[Convert.ToInt32(dni) % 23];
         }
         private int edad;
