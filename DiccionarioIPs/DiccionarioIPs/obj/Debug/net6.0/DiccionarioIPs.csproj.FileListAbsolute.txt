@@ -1,0 +1,15 @@
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\bin\Debug\net6.0\DiccionarioIPs.exe
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\bin\Debug\net6.0\DiccionarioIPs.deps.json
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\bin\Debug\net6.0\DiccionarioIPs.runtimeconfig.json
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\bin\Debug\net6.0\DiccionarioIPs.dll
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\bin\Debug\net6.0\DiccionarioIPs.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\obj\Debug\net6.0\DiccionarioIPs.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\obj\Debug\net6.0\DiccionarioIPs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\obj\Debug\net6.0\DiccionarioIPs.AssemblyInfoInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\obj\Debug\net6.0\DiccionarioIPs.AssemblyInfo.cs
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\obj\Debug\net6.0\DiccionarioIPs.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\obj\Debug\net6.0\DiccionarioIPs.dll
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\obj\Debug\net6.0\refint\DiccionarioIPs.dll
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\obj\Debug\net6.0\DiccionarioIPs.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\obj\Debug\net6.0\DiccionarioIPs.genruntimeconfig.cache
+C:\Users\Pablo\Desktop\Proyectos C#\DiccionarioIPs\DiccionarioIPs\obj\Debug\net6.0\ref\DiccionarioIPs.dll
