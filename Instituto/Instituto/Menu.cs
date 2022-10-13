@@ -53,7 +53,10 @@ namespace Instituto
                         aula.VisualizarNotasAsignatura();
                         break;
                     case 6:
-                        aula.NotasMinimaMaximaAlumno();
+                        int minimo = 10;
+                        int maximo = 0;
+                        aula.NotasMinimaMaximaAlumno(ref maximo,ref minimo);
+                        Console.WriteLine("Nota máxima: {0}, nota mínima {1}",maximo,minimo);
                         break;
                     case 7:
                         aula.VisualizarNotasAula();

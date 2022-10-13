@@ -65,7 +65,6 @@ namespace Instituto
                 }
             } while (!correcto || materia <= 0 || materia > materias.Length);
             return materia - 1;
-
         }
         public void MediaAula()
         {
@@ -129,11 +128,9 @@ namespace Instituto
             mostrarTablas.AppendLine($"{"",15}{nomesMaterias[materia],15}");
             for (int i = 0; i < notasAula.GetLength(0); i++)
             {
-                mostrarTablas.AppendLine($"{alumnos[i],15}{this[i, materia],15}");
-               // Console.WriteLine($"O alumno {alumnos[i]} sacou na materia{nomesMaterias[materia]} a nota {notasAula[i, materia]}");
+                mostrarTablas.AppendLine($"{alumnos[i],15}{this[i, materia],15}");              
             }
             Console.WriteLine(mostrarTablas);
-
         }
         public void VisualizarNotasAula()
         {
@@ -156,22 +153,16 @@ namespace Instituto
             }
             Console.WriteLine(mostrarTablas);
         }
-        public void NotasMinimaMaximaAlumno()
+        public void NotasMinimaMaximaAlumno(ref int maximo, ref int minimo)
         {
-
-            int alumno = PedirAlumnoAoUsuario();
-            int maximo = 0;
-            int minimo = 10;
-
-            for (int i = 1; i <= Enum.GetNames(typeof(Asignaturas)).GetLength(0); i++)
+            int alumno = PedirAlumnoAoUsuario();            
+            Console.WriteLine(Enum.GetNames(typeof(Asignaturas)).Length);
+            for (int i = 0; i < Enum.GetNames(typeof(Asignaturas)).Length; i++)
             {
-                if (notasAula[alumno, i] > maximo) { maximo = i; }
-                if (notasAula[alumno, i] < minimo) { minimo = i; }
+                if (this[alumno, i] > maximo) { maximo = this[alumno,i]; }
+                if (this[alumno, i] < minimo) { minimo = this[alumno,i]; }
             }
-
         }
-
-
         public Aula(string[] alumnos)
         {
             notasAula = new int[alumnos.Length, 4];
@@ -191,12 +182,10 @@ namespace Instituto
                 cont++;
             }
         }
-
         public Aula(string alumnos)
             : this(alumnos.Split(','))
         {
         }
-
         public int this[int indexAlumno, int indexMateria]
         {
             set => notasAula[indexAlumno, indexMateria] = value;
@@ -206,14 +195,6 @@ namespace Instituto
         {
             notaMinima = 10;
             notaMaxima = 0;
-
-        }
-        //public static void Main(String[] args)
-        //{
-        //    Aula losPringadosDelA1 = new Aula("Pedro, Pablo, Bryan, Jorge");
-
-
-        //    losPringadosDelA1.VisualizarNotasAula();
-        //}
+        }   
     }
 }
